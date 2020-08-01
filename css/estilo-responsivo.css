@@ -1,0 +1,178 @@
+@media only screen and (max-width: 1000px) {
+    #img-logo {
+        width: 211px;
+        height: auto;
+        margin-top: 24px;
+    }
+    #menu ul li {
+        margin-left: 10px;
+    }
+    #menu ul a {
+        font-size: 15px;
+    }
+    #divisor-1 p {
+        font-size: 15px;
+        top: 70px;
+    }
+    #divisor.btn {
+        font-size: 10px;
+    }
+    #footer-cinza p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #menu {
+        display: none;
+    }
+    header.open-menu {
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    header #menu-mobile {
+        position: fixed;
+        background-color: #fff;
+        width: 80%;
+        height: 100%;
+        right: 80px;
+        z-index: 5;
+    }
+    header.open-menu #menu-mobile {
+        right: 0;
+    }
+    header.open-menu #menu-mobile-mask {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, .5);
+        z-index: 4;
+    }
+    header.open-menu .bar-close {
+        position: absolute;
+        background-color: #00897B;
+        bottom: 0;
+        height: 40px;
+        width: 100%;
+    }
+    header.open-menu .bar-close .btn-close {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 22px;
+    }
+    header.open-menu #menu-mobile li {
+        text-align: center;
+        border-top: #00897B 1px solid;
+    }
+    header.open-menu #menu-mobile li:last-child {
+        border-bottom: #00897B 1px solid;
+    }
+    header.open-menu #menu-mobile ul {
+        margin: 20px;
+    }
+    header.open-menu #menu-mobile li a {
+        color: #454545;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        font-size: 16px;
+        padding: 18px;
+        display: block;
+    }
+    #btn-bars {
+        color: #454545;
+        font-size: 30px;
+        position: absolute;
+        top: 30px;
+        background: none;
+        border: none;
+        display: block;
+        right: 6%;
+    }
+    #sobre img {
+        margin-left: 10%;
+        height: auto;
+    }
+    #divisor-1 {
+        display: block;
+    }
+    #divisor-1 p {
+        top: 20px;
+        text-align: center;
+    }
+    #divisor-1 button {
+        top: 70px;
+        right: 24%;
+    }
+    .col-sm-8,
+    .col-sm-4 {
+        width: 100%;
+    }
+    #footer-cinza p {
+        font-size: 0.75em;
+    }
+    #footer-cinza p {
+        font-size: 11px;
+        top: 21px;
+    }
+    #footer-cinza ul li a {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    #footer-cinza ul li a {
+        font-size: 1em;
+        margin-left: 19px;
+    }
+    #footer-cinza p {
+        font-size: 11px;
+        top: 15px
+    }
+    #footer-cinza ul li a {
+        font-size: 16px;
+        margin-left: 11px;
+    }
+}
+
+@media only screen and (max-width:320px) {}
+
+
+/* 
+1200px – Desktops, notebooks com monitores widescreen
+**********************************************************
+
+@media screen and (max-width:1200px) {}
+
+
+/* 
+960px – Tablets no formato paisagem e alguns monitores mais antigos
+**********************************************************
+
+@media screen and (max-width:960px) {}
+
+
+/* 
+768px – Tablets no formato retrato, como o iPad
+**********************************************************
+
+@media screen and (max-width:768px) {}
+
+
+/* 
+480px – Smartphones no formato paisagem com tela pequena
+**********************************************************
+
+@media screen and (max-width:480px) {}
+
+
+/* 
+320px – Smartphones no formato retrato com tela pequena
+**********************************************************
+
+@media screen and (max-width:320px) {}*/

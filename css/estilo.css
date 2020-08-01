@@ -1,0 +1,481 @@
+@font-face {
+    font-family: 'Montserrat-medium';
+    src: url("../fonts/montserrat/Montserrat-Medium.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'OptimusPrinceps';
+    src: url("../fonts/OptimusPrinceps/OptimusPrinceps.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/montserrat/Montserrat-Regular.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url("../fonts/montserrat/Montserrat-Light.ttf");
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'Montserrat-semibold';
+    src: url("../fonts/montserrat/Montserrat-SemiBold.ttf");
+    font-size: 1em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat';
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 10;
+    box-shadow: 2px -5px 22px #383838;
+}
+
+#img-logo {
+    max-width: 305px;
+    max-height: 75px;
+    width: auto;
+    height: auto;
+    margin-top: 15px;
+}
+
+#menu ul {
+    position: absolute;
+    right: 10%;
+    top: 40px;
+}
+
+#menu ul li {
+    display: inline-block;
+    justify-content: end;
+    margin-left: 15px;
+}
+
+#menu ul a {
+    font-family: 'Montserrat';
+    color: #454545;
+    font-size: 1.125em;
+    text-decoration: none;
+    outline: none;
+}
+
+#menu ul li a:hover {
+    color: #00b894;
+    -webkit-transition: 0.15s ease-in;
+    -moz-transition: 0.15s ease-in;
+    -o-transition: 0.15s ease-in;
+    transition: 0.15s ease-in;
+}
+
+.hidden-menu {
+    display: none;
+}
+
+#btn-bars {
+    display: none;
+}
+
+#banner {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background: url("../img/img-banner.jpg");
+    background-position: 0px -80px;
+    top: 100px;
+    background-size: 1352px 730px;
+    filter: brightness(70%) blur(1px);
+}
+
+#text-banner {
+    display: block;
+    position: absolute;
+    top: 200px;
+    z-index: 9;
+    text-shadow: 2px 2px 4px #383838;
+}
+
+#text-banner h2 {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'OptimusPrinceps';
+    text-align: center;
+    font-size: 2.5em;
+}
+
+#text-banner p {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Montserrat-light';
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#text-banner button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+#text-banner button a {
+    color: #fff;
+    font-family: 'Montserrat-medium';
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#text-banner button:hover {
+    background-color: #00b894;
+    border: 2px solid #00b894;
+    -webkit-transition: 0.15s ease-in;
+    -moz-transition: 0.15s ease-in;
+    -o-transition: 0.15s ease-in;
+    transition: 0.15s ease-in;
+}
+
+
+/***********************
+ **    Seção Sobre    **
+ ***********************/
+
+#sobre {
+    position: relative;
+    top: 50px;
+    padding-top: 140px;
+    margin-bottom: 100px;
+}
+
+#sobre img {
+    width: 80%;
+    height: 330px;
+    box-shadow: 1px 3px 7px #383838;
+}
+
+#sobre img:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#texto-sobre h1 {
+    font-family: 'Montserrat-medium';
+    color: #00897B;
+    font-size: 1.875em;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+#texto-sobre h2 {
+    font-family: 'Montserrat';
+    font-size: 1.25em;
+    color: #636e72;
+    margin-top: 0;
+}
+
+#texto-sobre {
+    text-align: justify;
+}
+
+#divisor-1 {
+    position: relative;
+    top: 20px;
+}
+
+#divisor-1 p {
+    top: 65px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-size: 1.25em;
+}
+
+#divisor-1 button {
+    background: none;
+    border: 2px solid #fff;
+    border-radius: 0;
+    position: absolute;
+    top: 65px;
+    right: 20%;
+    font-family: 'Montserrat-medium';
+}
+
+#divisor-1 button:hover {
+    background-color: #fff;
+    color: #00b894;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#divisor-1,
+#divisor-2 {
+    background-color: #00897B;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+/***********************
+ **    Atuação        **
+ ***********************/
+
+#atuacao {
+    position: relative;
+    top: -10px;
+    padding-top: 100px;
+}
+
+#atuacao h1 {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    color: #383838;
+    font-family: 'Montserrat-medium';
+    font-size: 30px;
+}
+
+#atuacao span {
+    color: #00b894;
+}
+
+#atuacao hr {
+    border: #00897B solid 4px;
+    width: 200px;
+    margin-top: -30px;
+}
+
+#atuacao h3 {
+    font-family: 'Montserrat-medium';
+    font-size: 18px;
+}
+
+#atuacao p {
+    text-align: justify;
+    font-family: 'Montserrat-light';
+    font-size: 12px;
+}
+
+
+/***********************
+ **    Artigos        **
+ ***********************/
+
+#artigos {
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+#artigos h1 {
+    text-transform: uppercase;
+    font-family: 'Montserrat-medium';
+    font-size: 30px;
+}
+
+#artigos hr {
+    border: #00897B solid 4px;
+    width: 200px;
+    margin-top: -5px;
+    margin-bottom: 30px;
+}
+
+#artigos img {
+    max-width: 200px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+}
+
+#artigos h3 {
+    font-size: 0.875em;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#artigos time {
+    font-family: 'Montserrat';
+}
+
+#artigos .col-xs-3 button {
+    background: none;
+    border: 2px solid #00897B;
+    border-radius: 0;
+    font-size: 0.75em;
+    font-family: 'Montserrat-medium';
+    color: #00897B;
+    margin-left: 85px;
+}
+
+#artigos .col-xs-3 button:hover {
+    background-color: #00897B;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#artigos .col-xs-3 {
+    width: 100%;
+    margin-left: 5%;
+}
+
+#btn-artigos-prev,
+#btn-artigos-next {
+    background: none;
+    border: none;
+    color: #00897B;
+    font-size: 2.5em;
+    display: block;
+    position: absolute;
+    z-index: 5;
+    margin-top: 55px;
+}
+
+#btn-artigos-prev {
+    left: 0;
+}
+
+#btn-artigos-next {
+    right: 0;
+}
+
+
+/***********************
+ **      Contatos      **
+ ***********************/
+
+footer {
+    background-color: #00897B;
+    font-family: 'Montserrat';
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+#nome,
+#email,
+#mensagem {
+    width: 70%;
+    border: none;
+    border-radius: 0;
+}
+
+#footer-verde button {
+    background: none;
+    border: 2px solid #dfe6e9;
+    border-radius: 0;
+    font-family: 'Montserrat-semibold';
+    color: #dfe6e9;
+}
+
+#footer-verde button:hover {
+    background-color: #dfe6e9;
+    color: #00897B;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#footer-verde {
+    color: #dfe6e9;
+}
+
+#footer-verde h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+#infos-contato address,
+#infos-contato a {
+    color: #dfe6e9;
+    font-size: 1.125em;
+    text-decoration: none;
+}
+
+#infos-contato a:first-child {
+    margin-bottom: 5px;
+}
+
+#infos-contato p {
+    margin-top: -15px;
+}
+
+#infos-contato i {
+    font-size: 1.25em;
+}
+
+
+/***********************
+ **     Footer cinza   **
+ ***********************/
+
+#footer-cinza {
+    background-color: #383838;
+    height: 70px;
+}
+
+#footer-cinza ul {
+    position: relative;
+    top: 20px;
+}
+
+#footer-cinza p {
+    position: relative;
+    top: 30px;
+}
+
+#footer-cinza p {
+    font-size: 1em;
+    color: #dfe6e9;
+    font-family: 'Montserrat-light';
+}
+
+#footer-cinza ul li {
+    display: inline-block;
+}
+
+#footer-cinza ul li a {
+    font-size: 1.5625em;
+    color: #dfe6e9;
+    margin-left: 30px;
+}
+
+#footer-cinza ul li a:hover {
+    color: #00b894;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+#footer-cinza ul {
+    margin-right: 20px;
+}
